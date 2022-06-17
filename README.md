@@ -1,3 +1,4 @@
 # MAPDmod.B
 Managment analysis of physical dataset project
-Implementation of mini-batches clustering machine learning technique in PySpark environment
+
+Implementation of clustering machine learning techniques in PySpark environment
