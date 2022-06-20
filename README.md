@@ -1,7 +1,5 @@
-# MAPDmod.B
-Managment analysis of physical dataset project
 
-Implementation of Mini-Batch Kmeans clustering in PySpark environment
+#Implementation of Mini-Batch Kmeans clustering in PySpark environment
 # Introduction
 The k-means optimization problem is to find the set C of cluster centers c ∈ R m, with |C| = k, to minimize over a set X of examples x ∈ R m the following objective function:
 
