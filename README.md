@@ -26,3 +26,5 @@ $$c ← (1 − η)c + ηx $$
 
 In addition, we implemented a handy method called data parallelization.
  Data parallelism is a popular technique used to speed up training on large mini-batches when each mini-batch is too large to fit on a GPU. Under data parallelism, a mini-batch is split up into smaller sized batches that are small enough to fit on the memory available on different GPUs on the network.
+
+We use "Spark" as a cluster processing engine that allows data to be processed in parallel. Apache Spark's parallelism will enable developers to run tasks parallelly and independently on hundreds of computers in a cluster. All thanks to Apache Spark's fundamental idea, RDD.
